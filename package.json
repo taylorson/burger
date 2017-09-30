@@ -1,0 +1,29 @@
+{
+  "name": "burger-master",
+  "version": "1.0.0",
+  "description": "Eat-Da-Burger! is a restaurant app that lets users input the names of burgers they'd like to eat. Whenever a user submits a burger's name, your app will display the burger on the left side of the page -- waiting to be devoured. Each burger in the waiting area also has a Devour it! button. When the user clicks it, the burger will move to the right side of the page.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/taylorson/burger.git"
+  },
+  "keywords": [
+    "burger"
+  ],
+  "author": "Taylor",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/taylorson/burger/issues"
+  },
+  "homepage": "https://github.com/taylorson/burger#readme",
+  "devDependencies": {
+    "body-parser": "^1.18.2",
+    "express": "^4.16.0",
+    "express-handlebars": "^3.0.0",
+    "method-override": "^2.3.10",
+    "mysql": "^2.14.1"
+  }
+}
